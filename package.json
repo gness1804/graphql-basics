@@ -11,7 +11,9 @@
     "prettier:write": "prettier --write ."
   },
   "pre-commit": [
-    "no-console"
+    "no-console",
+    "no-dontmerge",
+    "prettier:check"
   ],
   "dependencies": {
     "express": "^4.17.1",
