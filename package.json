@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon server.js",
-    "no-console": "bash ../../githooks/dist/noConsole.sh"
+    "no-console": "bash ../../githooks/dist/noConsole.sh",
+    "no-dontmerge": "bash ../../githooks/dist/noDontmerge.sh"
   },
   "pre-commit": [
     "no-console"
