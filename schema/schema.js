@@ -1,5 +1,18 @@
 const graphql = require('graphql');
-const { users } = require('../fixtures');
+// const { users } = require('../fixtures');
+
+const users = [
+  {
+    id: '1',
+    firstName: 'Ken',
+    age: 50,
+  },
+  {
+    id: '2',
+    firstName: 'Mike',
+    age: 28,
+  },
+];
 
 const { GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLSchema } = graphql;
 
