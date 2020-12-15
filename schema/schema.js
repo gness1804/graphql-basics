@@ -1,18 +1,5 @@
 const graphql = require('graphql');
-// const { users } = require('../fixtures');
-
-const users = [
-  {
-    id: '1',
-    firstName: 'Ken',
-    age: 50,
-  },
-  {
-    id: '2',
-    firstName: 'Mike',
-    age: 28,
-  },
-];
+const axios = require('axios');
 
 const { GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLSchema } = graphql;
 
@@ -32,7 +19,9 @@ const RootQuery = new GraphQLObjectType({
       type: UserType,
       args: { id: { type: GraphQLString } },
       resolve(parentValue, args) {
-        return users.find(({ id }) => id === args.id);
+        return axios
+          .get(`http://localhost:3000/users/${args.id}`)
+          .then((res) => res.data);
       },
     },
   },
