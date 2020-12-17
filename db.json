@@ -3,12 +3,32 @@
     {
       "id": "1",
       "firstName": "Ken",
-      "age": 50
+      "age": 50,
+      "companyId": "a"
     },
     {
       "id": "2",
       "firstName": "Mike",
-      "age": 28
+      "age": 28,
+      "companyId": "b"
+    },
+    {
+      "id": "3",
+      "firstName": "Manuel",
+      "age": 34,
+      "companyId": "b"
+    }
+  ],
+  "companies": [
+    {
+      "id": "a",
+      "name": "Nintendo",
+      "description": "Renowned video game maker. Trades substantially on nostalgia, but also has some worthwhile newer offerings."
+    },
+    {
+      "id": "b",
+      "name": "Sony",
+      "description": "Maker of the PlayStation. Became a success in an industry formerly dominated by Nintendo and Sega."
     }
   ]
 }
