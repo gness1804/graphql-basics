@@ -2,14 +2,14 @@
   "users": [
     {
       "id": "1",
-      "firstName": "Ken",
+      "firstName": "Alan",
       "age": 50,
-      "companyId": "a"
+      "companyId": "c"
     },
     {
       "id": "2",
       "firstName": "Mike",
-      "age": 28,
+      "age": 30,
       "companyId": "b"
     },
     {
@@ -29,6 +29,11 @@
       "id": "b",
       "name": "Sony",
       "description": "Maker of the PlayStation. Became a success in an industry formerly dominated by Nintendo and Sega."
+    },
+    {
+      "id": "c",
+      "name": "Microsoft",
+      "description": "A software giant that got into the video game industry."
     }
   ]
 }
