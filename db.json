@@ -13,12 +13,6 @@
       "companyId": "b"
     },
     {
-      "id": "3",
-      "firstName": "Manuel",
-      "age": 34,
-      "companyId": "b"
-    },
-    {
       "firstName": "Amy",
       "age": 39,
       "companyId": "a",
