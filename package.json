@@ -16,8 +16,7 @@
   "pre-commit": [
     "no-console",
     "no-dontmerge",
-    "prettier:check",
-    "lint"
+    "prettier:check"
   ],
   "dependencies": {
     "axios": "^0.21.0",
