@@ -92,7 +92,7 @@ const mutation = new GraphQLObjectType({
     deleteUser: {
       type: UserType,
       args: {
-        id: { type: GraphQLString },
+        id: { type: new GraphQLNonNull(GraphQLString) },
       },
       resolve(parentValue, { id }) {
         return axios
